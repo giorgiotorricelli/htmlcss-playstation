@@ -182,7 +182,7 @@ img {
 
 /* NUOVE USCITE */
 
-.middle-down {
+.container-middle {
     background-color: rgb(39, 39, 39);
 }
 
@@ -195,9 +195,65 @@ img {
 
 }
 
+/* PS4 */
+
+.esplora-ps4 {
+    text-align: center;
+    
+}
+
+.descrizione-ps4 {
+    margin-bottom: 90px;
+}
+
+.btn-scopri {
+    border-radius: 20px;
+}
+
+.ps4-accessori {
+    margin-bottom: 70px;
+}
+
+/* Play Plus*/
+
+.play-plus {
+    background-color: rgb(150, 146, 146);
+}
+
+.play-plus-description {
+    padding: 40px 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo-ps-plus {
+    max-width: 60%;
+    margin-bottom: 15px;
+}
+
+.btn-ps-plus {
+    background-color: rgb(195, 195, 195);
+    border-radius: 20px;
+}
+
+.april-games {
+    display: none;
+}
+
+.april-games-logo {
+    height: 100%;
+}
+
 
 
 /* Media Query*/
+
+@media screen and (min-width: 576px) {
+    .my-container {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .play-thumbnail {
@@ -206,6 +262,22 @@ img {
             display: initial;
         }
     }
+
+    .my-container {
+        max-width: 610px;
+    }
+
+    .april-games {
+        display: initial;
+    }
+
+    .play-plus-description {
+    padding: 10px 0;
+    padding-left: 20px;
+    justify-content: center;
+    }
+
+    
 }
 
 
