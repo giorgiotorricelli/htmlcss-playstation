@@ -180,6 +180,21 @@ img {
     height: 50%;
 }
 
+/* NUOVE USCITE */
+
+.middle-down {
+    background-color: rgb(39, 39, 39);
+}
+
+
+.row-nuove-uscite {
+    row-gap: 20px;
+    img {
+        border-radius: 20px;
+    }
+
+}
+
 
 
 /* Media Query*/
