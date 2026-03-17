@@ -218,6 +218,7 @@ img {
 
 .play-plus {
     background-color: rgb(150, 146, 146);
+    margin-bottom: 50px;
 }
 
 .play-plus-description {
@@ -244,6 +245,57 @@ img {
     height: 100%;
 }
 
+/* sconti ps4 */
+
+.sconti-description {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+
+        h1 {
+            padding: 0 50px;
+            margin-bottom: 20px;
+        }
+}
+
+.offerte {
+    row-gap: 20px;
+    margin: 50px 0;
+}
+
+
+/* Play Now */
+
+.play-now {
+    background-image: linear-gradient(to bottom, rgb(47, 47, 173), rgb(21, 21, 101));
+    margin-bottom: 50px;
+}
+
+.play-now-description {
+    padding: 40px 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+
+.logo-ps-now {
+    max-width: 60%;
+    margin-bottom: 15px;
+}
+
+.btn-ps-now {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.feature-games {
+    display: none;
+}
+
+.feature-games-logo {
+    height: 100%;
+}
+
 
 
 /* Media Query*/
@@ -267,11 +319,13 @@ img {
         max-width: 610px;
     }
 
-    .april-games {
+    .april-games,
+    .feature-games {
         display: initial;
     }
 
-    .play-plus-description {
+    .play-plus-description,
+    .play-now-description {
     padding: 10px 0;
     padding-left: 20px;
     justify-content: center;
