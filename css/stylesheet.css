@@ -55,15 +55,13 @@ img {
 
 .starting-promo {
     width: 100%;
-    max-height: 600px;
+    height: 600px;
     background-image: url(https://www.psu.com/wp/wp-content/uploads/2021/04/returnal-hands-on-impressions-ps5-a-roguelike-of-aaa-quality-that-isnt-pulling-any-punches.jpg);
     background-position:right;
     background-size:cover;
     aspect-ratio: 1;
     background-repeat: no-repeat;
-    padding-top: 30vh;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 40vh;
     padding-bottom: 10px;
     margin-bottom: 40px;
 }
@@ -162,18 +160,18 @@ img {
 
 .middle-promo {
     width: 100%;
-    max-height: 700px;
+    height: 650px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 70px 0 0 0;
 }
 
 .it-two-logo {
     width: 50%;
     height: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .promo-text {
@@ -323,6 +321,7 @@ img {
     margin: 0 auto;
     max-width: 720px;
     margin-bottom: 70px;
+    row-gap: 20px;
 }
 
 /* Footer */
